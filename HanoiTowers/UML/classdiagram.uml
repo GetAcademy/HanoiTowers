@@ -1,0 +1,13 @@
+@startuml
+
+class Tower
+class Disc
+class Game
+
+Game - Tower
+Tower - Disc
+Game - Disc
+
+@enduml
+
+https://planttext.com/

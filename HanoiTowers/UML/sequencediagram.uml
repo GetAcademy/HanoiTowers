@@ -1,0 +1,9 @@
+
+
+User -> Game: MoveDisc(1,2)
+Game -> Game: towerFrom = FindTower(1)
+Game -> Tower: disc = GetDisc()
+Game -> Game: towerTo = FindTower(2)
+Game->Tower: RecieveDisc(disc)
+
+https://www.websequencediagrams.com
